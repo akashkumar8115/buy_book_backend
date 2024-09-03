@@ -1,0 +1,224 @@
+{
+    "foods": [
+        {
+            "id": 1,
+            "category": "vegetarian",
+            "name": "Margherita Pizza",
+            "chef": "John Doe",
+            "cuisine": "Italian",
+            "publishedYear": 2020,
+            "price": "12.99",
+            "image": "https://example.com/images/margherita_pizza.jpg",
+            "url": "https://example.com/food/margherita-pizza"
+        },
+        {
+            "id": 2,
+            "category": "vegan",
+            "name": "Vegan Buddha Bowl",
+            "chef": "Jane Smith",
+            "cuisine": "Fusion",
+            "publishedYear": 2021,
+            "price": "15.99",
+            "image": "https://example.com/images/buddha_bowl.jpg",
+            "url": "https://example.com/food/vegan-buddha-bowl"
+        },
+        {
+            "id": 3,
+            "category": "dessert",
+            "name": "Chocolate Lava Cake",
+            "chef": "Emily Johnson",
+            "cuisine": "French",
+            "publishedYear": 2019,
+            "price": "6.50",
+            "image": "https://example.com/images/lava_cake.jpg",
+            "url": "https://example.com/food/chocolate-lava-cake"
+        },
+        {
+            "id": 4,
+            "category": "beverage",
+            "name": "Iced Matcha Latte",
+            "chef": "Michael Brown",
+            "cuisine": "Japanese",
+            "publishedYear": 2022,
+            "price": "4.75",
+            "image": "https://example.com/images/matcha_latte.jpg",
+            "url": "https://example.com/food/iced-matcha-latte"
+        },
+        {
+            "id": 5,
+            "category": "seafood",
+            "name": "Grilled Salmon",
+            "chef": "Sarah Davis",
+            "cuisine": "American",
+            "publishedYear": 2018,
+            "price": "18.00",
+            "image": "https://example.com/images/grilled_salmon.jpg",
+            "url": "https://example.com/food/grilled-salmon"
+        },
+        {
+            "id": 6,
+            "category": "appetizer",
+            "name": "Bruschetta",
+            "chef": "David Wilson",
+            "cuisine": "Italian",
+            "publishedYear": 2017,
+            "price": "7.25",
+            "image": "https://example.com/images/bruschetta.jpg",
+            "url": "https://example.com/food/bruschetta"
+        },
+        {
+            "id": 7,
+            "category": "meat",
+            "name": "Beef Steak",
+            "chef": "Laura Martinez",
+            "cuisine": "Argentinian",
+            "publishedYear": 2020,
+            "price": "22.50",
+            "image": "https://example.com/images/beef_steak.jpg",
+            "url": "https://example.com/food/beef-steak"
+        },
+        {
+            "id": 8,
+            "category": "salad",
+            "name": "Caesar Salad",
+            "chef": "Robert Garcia",
+            "cuisine": "Italian",
+            "publishedYear": 2016,
+            "price": "9.00",
+            "image": "https://example.com/images/caesar_salad.jpg",
+            "url": "https://example.com/food/caesar-salad"
+        },
+        {
+            "id": 9,
+            "category": "dessert",
+            "name": "Tiramisu",
+            "chef": "Maria Rodriguez",
+            "cuisine": "Italian",
+            "publishedYear": 2019,
+            "price": "5.50",
+            "image": "https://example.com/images/tiramisu.jpg",
+            "url": "https://example.com/food/tiramisu"
+        },
+        {
+            "id": 10,
+            "category": "beverage",
+            "name": "Espresso",
+            "chef": "James Lee",
+            "cuisine": "Italian",
+            "publishedYear": 2015,
+            "price": "3.00",
+            "image": "https://example.com/images/espresso.jpg",
+            "url": "https://example.com/food/espresso"
+        },
+        {
+            "id": 11,
+            "category": "vegan",
+            "name": "Quinoa Salad",
+            "chef": "Linda Kim",
+            "cuisine": "Mediterranean",
+            "publishedYear": 2021,
+            "price": "11.50",
+            "image": "https://example.com/images/quinoa_salad.jpg",
+            "url": "https://example.com/food/quinoa-salad"
+        },
+        {
+            "id": 12,
+            "category": "seafood",
+            "name": "Shrimp Tacos",
+            "chef": "Kevin Anderson",
+            "cuisine": "Mexican",
+            "publishedYear": 2020,
+            "price": "13.75",
+            "image": "https://example.com/images/shrimp_tacos.jpg",
+            "url": "https://example.com/food/shrimp-tacos"
+        },
+        {
+            "id": 13,
+            "category": "appetizer",
+            "name": "Stuffed Mushrooms",
+            "chef": "Barbara Thomas",
+            "cuisine": "American",
+            "publishedYear": 2018,
+            "price": "8.25",
+            "image": "https://example.com/images/stuffed_mushrooms.jpg",
+            "url": "https://example.com/food/stuffed-mushrooms"
+        },
+        {
+            "id": 14,
+            "category": "meat",
+            "name": "Chicken Parmesan",
+            "chef": "Steven Harris",
+            "cuisine": "Italian",
+            "publishedYear": 2017,
+            "price": "16.00",
+            "image": "https://example.com/images/chicken_parmesan.jpg",
+            "url": "https://example.com/food/chicken-parmesan"
+        },
+        {
+            "id": 15,
+            "category": "salad",
+            "name": "Greek Salad",
+            "chef": "Patricia Clark",
+            "cuisine": "Greek",
+            "publishedYear": 2016,
+            "price": "10.00",
+            "image": "https://example.com/images/greek_salad.jpg",
+            "url": "https://example.com/food/greek-salad"
+        },
+        {
+            "id": 16,
+            "category": "dessert",
+            "name": "Cheesecake",
+            "chef": "Daniel Lewis",
+            "cuisine": "American",
+            "publishedYear": 2019,
+            "price": "6.75",
+            "image": "https://example.com/images/cheesecake.jpg",
+            "url": "https://example.com/food/cheesecake"
+        },
+        {
+            "id": 17,
+            "category": "beverage",
+            "name": "Green Tea",
+            "chef": "Nancy Walker",
+            "cuisine": "Chinese",
+            "publishedYear": 2015,
+            "price": "2.50",
+            "image": "https://example.com/images/green_tea.jpg",
+            "url": "https://example.com/food/green-tea"
+        },
+        {
+            "id": 18,
+            "category": "vegan",
+            "name": "Lentil Soup",
+            "chef": "George Hall",
+            "cuisine": "Middle Eastern",
+            "publishedYear": 2021,
+            "price": "7.99",
+            "image": "https://example.com/images/lentil_soup.jpg",
+            "url": "https://example.com/food/lentil-soup"
+        },
+        {
+            "id": 19,
+            "category": "seafood",
+            "name": "Fish and Chips",
+            "chef": "Karen Young",
+            "cuisine": "British",
+            "publishedYear": 2018,
+            "price": "14.50",
+            "image": "https://example.com/images/fish_and_chips.jpg",
+            "url": "https://example.com/food/fish-and-chips"
+        },
+        {
+            "id": 20,
+            "category": "appetizer",
+            "name": "Spring Rolls",
+            "chef": "Brian King",
+            "cuisine": "Chinese",
+            "publishedYear": 2017,
+            "price": "5.99",
+            "image": "https://example.com/images/spring_rolls.jpg",
+            "url": "https://example.com/food/spring-rolls"
+        }
+    ]
+}

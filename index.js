@@ -17,9 +17,6 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 4000;
 // const URI = process.env.MongoDBURI;
-const URI =
-  // "mongodb+srv://akash2884182:akash2884182@cluster0.my8k9ww.mongodb.net/books";
-  "mongodb+srv://akash2884182:akash2884182@cluster0.my8k9ww.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 // defining routes
 app.use("/book", bookRoute);
@@ -119,6 +116,9 @@ app.get("/users", async (req, res) => {
     res.status(500).json({ message: "Internal server error" });
   }
 });
+const URI =
+  // "mongodb+srv://akash2884182:akash2884182@cluster0.my8k9ww.mongodb.net/books";
+  "mongodb+srv://akash2884182:akash2884182@cluster0.my8k9ww.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 const connectWithRetry = () => {
   console.log("Attempting to connect to MongoDB...");

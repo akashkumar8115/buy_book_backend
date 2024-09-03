@@ -23,9 +23,9 @@ app.use("/book", bookRoute);
 app.use("/user", userRoute);
 mongoose.set("debug", true);
 
-app.get("/", (req, res) => {
-  res.send("Welcome to the API!");
-});
+// app.get("/", (req, res) => {
+//   res.send("Welcome to the API!");
+// });
 
 // user/signup route
 app.post("/user/signup", async (req, res) => {

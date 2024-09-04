@@ -8,6 +8,10 @@ import bookRoute from "./route/book.route.js";
 import userRoute from "./route/user.route.js";
 import User from "./model/user.model.js"; // Assuming User model is located in models/User.js
 import { MongoClient, ServerApiVersion } from "mongodb";
+<<<<<<< HEAD
+=======
+
+>>>>>>> 654fac01001a11113e36da713597b6c6e14e870e
 import bodyParser from "body-parser";
 dotenv.config();
 
@@ -34,9 +38,9 @@ app.use("/book", bookRoute);
 app.use("/user", userRoute);
 mongoose.set("debug", true);
 
-app.get("/", (req, res) => {
-  res.send("Welcome to the API!");
-});
+// app.get("/", (req, res) => {
+//   res.send("Welcome to the API!");
+// });
 
 // user/signup route
 app.post("/user/signup", async (req, res) => {
@@ -127,6 +131,9 @@ app.get("/users", async (req, res) => {
     res.status(500).json({ message: "Internal server error" });
   }
 });
+const URI =
+  // "mongodb+srv://akash2884182:akash2884182@cluster0.my8k9ww.mongodb.net/books";
+  "mongodb+srv://akash2884182:akash2884182@cluster0.my8k9ww.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 const URI =
   // "mongodb+srv://akash2884182:akash2884182@cluster0.my8k9ww.mongodb.net/books";

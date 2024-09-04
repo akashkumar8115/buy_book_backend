@@ -8,12 +8,23 @@ import bookRoute from "./route/book.route.js";
 import userRoute from "./route/user.route.js";
 import User from "./model/user.model.js"; // Assuming User model is located in models/User.js
 import { MongoClient, ServerApiVersion } from "mongodb";
-
+import bodyParser from "body-parser";
 dotenv.config();
 
 const app = express();
-app.use(cors());
+// app.use(cors());
+// Optionally configure CORS to allow specific origins
+const corsOptions = {
+  origin: "*",
+  methods: "GET,POST,PUT,DELETE",
+  allowedHeaders: "Content-Type,Authorization",
+};
+app.use(cors(corsOptions));
 app.use(express.json());
+app.use(bodyParser.json());
+
+// Middleware to parse URL-encoded bodies
+app.use(bodyParser.urlencoded({ extended: true }));
 
 const PORT = process.env.PORT || 4000;
 // const URI = process.env.MongoDBURI;
@@ -117,10 +128,9 @@ app.get("/users", async (req, res) => {
   }
 });
 
-
 const URI =
   // "mongodb+srv://akash2884182:akash2884182@cluster0.my8k9ww.mongodb.net/books";
-  "mongodb+srv://akash2884182:akash2884182@cluster0.my8k9ww.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" //isi me chala thA initially
+  "mongodb+srv://akash2884182:akash2884182@cluster0.my8k9ww.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"; //isi me chala thA initially
 
 const connectWithRetry = () => {
   console.log("Attempting to connect to MongoDB...");

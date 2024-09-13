@@ -16,9 +16,9 @@ const app = express();
 // Optionally configure CORS to allow specific origins
 const corsOptions = {
   origin: "https://buy-book-two.vercel.app",
-  methods: "GET,POST,PUT,DELETE",
-  allowedHeaders: "Content-Type,Authorization",
-  Credential:true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type'],
+  credentials: true,
 };
 app.use(cors(corsOptions));
 app.use(express.json());
